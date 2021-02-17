@@ -1,0 +1,91 @@
+/* css code */
+/* heding */
+body{
+    background-color: silver;
+}
+h1 {
+    color: orangered;
+    font-size: 45px;
+}
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    width:  80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    background-color: black;
+}
+#b1:hover{
+    background-color: blue;
+}
+#b2:hover{
+    background-color: red;
+}
+#b3:hover{
+    background-color: gold;
+}
+#b4:hover{
+    background-color: whitesmoke;
+}
+#b5:hover{
+    background-color: orangered;
+}
+#b6:hover{
+    background-color: lawngreen;
+}
+#b7:hover{
+    background-color: pink;
+}
+#b8:hover{
+    background-color: olive;
+}
+#b9:hover{
+    background-color: grey;
+}
+
+/* Reset Button */
+#but {
+    color: #000;
+    background: #ffc400;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: 500;
+    box-shadow: 0 5px #ffffff4d;
+    transition: .5s;
+    /* box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid darkorchid;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; */
+}
+#but:hover{
+    background-color: gray;
+}
+/* * Player turn space */ 
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+/* Main Contianer */
+#main{
+    text-align: center;
+}
+  /* Game Instruction Text */
+#ins {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: dodgerblue;
+      font-size: 17px;
+}
