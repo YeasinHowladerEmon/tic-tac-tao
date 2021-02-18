@@ -48,17 +48,8 @@ h1 {
 }
 
 /* Reset Button */
-#but {
-    color: #000;
-    background: #ffc400;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 50px;
-    font-weight: 500;
-    box-shadow: 0 5px #ffffff4d;
-    transition: .5s;
-    /* box-sizing: border-box;
+#but {  
+    box-sizing: border-box;
     width: 95px;
     height: 40px;
     border: 1px solid darkorchid;
@@ -68,7 +59,7 @@ h1 {
     background-color: dodgerblue;
     color: white;
     font-size: 20px;
-    cursor: pointer; */
+    cursor: pointer;
 }
 #but:hover{
     background-color: gray;
